@@ -1,3 +1,15 @@
+# Getting started with the react widget.
+
+Copy these 3 lines of code and replace SUBREDDIT_HERE with the subreddit of your liking (eg. IndianStockMarket, IndiaInvestments). You can add more than one widget by duplicating only the div (3rd line).
+
+```
+<link href="https://mrityunjoybora.github.io/react-reddit-widget/index.css" rel="stylesheet" />
+<script src="https://mrityunjoybora.github.io/react-reddit-widget/index.js"></script>
+
+<div class="reddit_widget" data-subreddit="SUBREDDIT_HERE"></div>
+```
+![Alt text](Example/Screenshot.png?raw=true "Optional Title")
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
