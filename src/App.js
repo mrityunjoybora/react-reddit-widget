@@ -42,11 +42,11 @@ function App() {
   const [data, setData] = useState([]);
 
   const [subreddit, setSubreddit] = useState(
-    window.location.pathname.split("/")[1]
-  );
+    window.location.pathname.split("/")[1].split(".")[0]
+  );  
 
   useEffect(() => {
-    setSubreddit(window.location.pathname.split("/")[1]);
+    setSubreddit(window.location.pathname.split("/")[1].split(".")[0]);
   }, [window.location.pathname]);
 
   useEffect(() => {
